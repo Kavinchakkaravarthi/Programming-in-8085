@@ -1,0 +1,7 @@
+//8-bit Addition
+LDA 4500
+MOV B,A
+LDA 4501
+ADD B
+STA 4502
+HLT
