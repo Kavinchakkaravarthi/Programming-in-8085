@@ -1,0 +1,8 @@
+   LDA 4500//Value of N
+   MOV B,A
+   MVI A,00//Restting Accumulator 
+L1:ADD B
+   DCR B
+   JNZ L1
+   STA 4501
+   HLT
