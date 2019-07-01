@@ -1,0 +1,8 @@
+LDA 4500
+ANI 01
+MVI A,01 //for odd
+STA 4501
+JZ L1
+L1:MVI A,02//for even
+STA 4501
+HLT
